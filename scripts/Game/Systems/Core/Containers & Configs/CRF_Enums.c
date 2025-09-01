@@ -247,6 +247,7 @@ modded enum ChimeraMenuPreset : ScriptMenuPresetEnum
 	CRF_SlottingMenu,
 	CRF_SpectatorMenu,
 	CRF_CharacterLoading,
+	CRF_MiniArsenalMenu,
 	CRF_GungameStart,
 	CRF_GunGameEnd
 }
