@@ -1,0 +1,211 @@
+Vehicle OBJBlackhawk : "{1529FD2C6A8162A1}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_Pylon_Quad_Hydra.et" {
+ components {
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     MaxFuel 0
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{661A5AD75FDB52FF}" {
+     MaxFuel 0
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{661A5AD75FDB52F0}" {
+     MaxFuel 0
+     m_fInitialFuelTankState 0
+    }
+    SCR_FuelNode "{661A5AD75FDB52F3}" {
+     MaxFuel 0
+     m_fInitialFuelTankState 0
+    }
+   }
+  }
+ }
+ coords 5276.841 59.781 4137.334
+ angleX -1.253
+ angleY -147.584
+ angleZ 0.039
+ userScript "			bool dmessageSent = false;"\
+ "	"\
+ "	void checkDamage()"\
+ "	{"\
+ "		DamageManagerComponent dmgManager = DamageManagerComponent.Cast(this.FindComponent(DamageManagerComponent));"\
+ "		"\
+ "		if (dmgManager  && !dmessageSent)"\
+ "		{"\
+ "			if (dmgManager.IsDestroyed())"\
+ "			{"\
+ "				SCR_PopUpNotification.GetInstance().PopupMsg(\"The Target UH-60 DAP has been destroyed\", 10);"\
+ "				"\
+ "				dmessageSent = true;"\
+ "			}"\
+ "			"\
+ "			else "\
+ "			{"\
+ "				GetGame().GetCallqueue().CallLater(checkDamage, 3000, false);"\
+ "			}"\
+ "		}"\
+ "	}"\
+ ""\
+ "	override void EOnInit(IEntity owner)"\
+ "	{"\
+ "		super.EOnInit(owner);"\
+ "		"\
+ "		GetGame().GetCallqueue().CallLater(checkDamage, 3000, false);"\
+ ""\
+ "	}"
+}
+$grp Vehicle : "{38186F12F27A61C6}Prefabs/Vehicles/Wheeled/M923A1/M923A1_command_MERDC.et" {
+ TrainCommand1 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+  }
+  coords 5333.246 59.869 4224.467
+  angleY -148.146
+  userScript "	bool dmessageSent = false;"\
+  "	"\
+  "	void checkDamage()"\
+  "	{"\
+  "		DamageManagerComponent dmgManager = DamageManagerComponent.Cast(this.FindComponent(DamageManagerComponent));"\
+  "		"\
+  "		if (dmgManager  && !dmessageSent)"\
+  "		{"\
+  "			if (dmgManager.IsDestroyed())"\
+  "			{"\
+  "				SCR_PopUpNotification.GetInstance().PopupMsg(\"A Target Command Truck has been destroyed\", 10);"\
+  "				"\
+  "				dmessageSent = true;"\
+  "			}"\
+  "			"\
+  "			else "\
+  "			{"\
+  "				GetGame().GetCallqueue().CallLater(checkDamage, 3000, false);"\
+  "			}"\
+  "		}"\
+  "	}"\
+  ""\
+  "	override void EOnInit(IEntity owner)"\
+  "	{"\
+  "		super.EOnInit(owner);"\
+  "		"\
+  "		GetGame().GetCallqueue().CallLater(checkDamage, 3000, false);"\
+  ""\
+  "	}"
+ }
+ TrainCommand2 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+  }
+  coords 5337.847 59.869 4231.871
+  angleY -148.146
+  userScript "	bool dmessageSent = false;"\
+  "	"\
+  "	void checkDamage()"\
+  "	{"\
+  "		DamageManagerComponent dmgManager = DamageManagerComponent.Cast(this.FindComponent(DamageManagerComponent));"\
+  "		"\
+  "		if (dmgManager  && !dmessageSent)"\
+  "		{"\
+  "			if (dmgManager.IsDestroyed())"\
+  "			{"\
+  "				SCR_PopUpNotification.GetInstance().PopupMsg(\"A Target Command Truck has been destroyed\", 10);"\
+  "				"\
+  "				dmessageSent = true;"\
+  "			}"\
+  "			"\
+  "			else "\
+  "			{"\
+  "				GetGame().GetCallqueue().CallLater(checkDamage, 3000, false);"\
+  "			}"\
+  "		}"\
+  "	}"\
+  ""\
+  "	override void EOnInit(IEntity owner)"\
+  "	{"\
+  "		super.EOnInit(owner);"\
+  "		"\
+  "		GetGame().GetCallqueue().CallLater(checkDamage, 3000, false);"\
+  ""\
+  "	}"
+ }
+}
+$grp Vehicle : "{3BBAB8769FA8384E}Prefabs/Vehicles/Wheeled/Stryker/M1128/Stryker_MGS_MERD_NONUSEABLE.et" {
+ StrykerMGS {
+  coords 5269.396 59.936 4125.506
+  angleY -147.161
+  userScript "		bool dmessageSent = false;"\
+  "	"\
+  "	void checkDamage()"\
+  "	{"\
+  "		DamageManagerComponent dmgManager = DamageManagerComponent.Cast(this.FindComponent(DamageManagerComponent));"\
+  "		"\
+  "		if (dmgManager  && !dmessageSent)"\
+  "		{"\
+  "			if (dmgManager.IsDestroyed())"\
+  "			{"\
+  "				SCR_PopUpNotification.GetInstance().PopupMsg(\"A Target Stryker MGS has been destroyed\", 10);"\
+  "				"\
+  "				dmessageSent = true;"\
+  "			}"\
+  "			"\
+  "			else "\
+  "			{"\
+  "				GetGame().GetCallqueue().CallLater(checkDamage, 3000, false);"\
+  "			}"\
+  "		}"\
+  "	}"\
+  ""\
+  "	override void EOnInit(IEntity owner)"\
+  "	{"\
+  "		super.EOnInit(owner);"\
+  "		"\
+  "		GetGame().GetCallqueue().CallLater(checkDamage, 3000, false);"\
+  ""\
+  "	}"
+ }
+ StrykerMGS2 {
+  coords 5265.345 59.936 4119.18
+  angleY -147.161
+  userScript "		bool dmessageSent = false;"\
+  "	"\
+  "	void checkDamage()"\
+  "	{"\
+  "		DamageManagerComponent dmgManager = DamageManagerComponent.Cast(this.FindComponent(DamageManagerComponent));"\
+  "		"\
+  "		if (dmgManager  && !dmessageSent)"\
+  "		{"\
+  "			if (dmgManager.IsDestroyed())"\
+  "			{"\
+  "				SCR_PopUpNotification.GetInstance().PopupMsg(\"A Target Stryker MGS has been destroyed\", 10);"\
+  "				"\
+  "				dmessageSent = true;"\
+  "			}"\
+  "			"\
+  "			else "\
+  "			{"\
+  "				GetGame().GetCallqueue().CallLater(checkDamage, 3000, false);"\
+  "			}"\
+  "		}"\
+  "	}"\
+  ""\
+  "	override void EOnInit(IEntity owner)"\
+  "	{"\
+  "		super.EOnInit(owner);"\
+  "		"\
+  "		GetGame().GetCallqueue().CallLater(checkDamage, 3000, false);"\
+  ""\
+  "	}"
+ }
+}

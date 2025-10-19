@@ -1,0 +1,100 @@
+$grp SCR_VehicleSpawn {
+ TyphoonRGSpawn {
+  coords 7887.116 95.756 6242.881
+  angleY 67.303
+  m_rnPrefab "{A53F4D3BB9DC85D4}Prefabs/Vehicles/Wheeled/K4386/K4386_RG.et"
+  respawnDelay 10000
+  firstSpawn 2
+ }
+ TyphoonGreenArma {
+  coords 7885.188 95.905 6247.493
+  angleY 67.303
+  m_rnPrefab "{863A65C2E3330F2F}Prefabs/Vehicles/Wheeled/K4386/K4386_Base.et"
+  respawnDelay 10000
+  firstSpawn 2
+ }
+ TyphoonCamoSpawn {
+  coords 7883.259 96.035 6252.106
+  angleY 67.303
+  m_rnPrefab "{9BF596A3464B6DB8}Prefabs/Vehicles/Wheeled/K4386/K4386_Camo.et"
+  respawnDelay 10000
+  firstSpawn 2
+ }
+ TyphoonTanSpawn {
+  coords 7881.329 96.136 6256.718
+  angleY 67.303
+  m_rnPrefab "{93953D1ABAEE7D85}Prefabs/Vehicles/Wheeled/K4386/K4386_Tan.et"
+  respawnDelay 10000
+  firstSpawn 2
+ }
+ GazPKPShieldGreen {
+  coords 7879.398 96.204 6261.331
+  angleY 67.303
+  m_rnPrefab "{2297AAC5FB2CF134}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM_Shield.et"
+  respawnDelay 10000
+  firstSpawn 2
+ }
+ GazPKPGreen {
+  coords 7877.47 96.205 6265.944
+  angleY 67.303
+  m_rnPrefab "{7BC76F92B882889D}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM.et"
+  respawnDelay 10000
+  firstSpawn 2
+ }
+ GazPKPShieldTan {
+  coords 7875.542 96.155 6270.556
+  angleY 67.303
+  m_rnPrefab "{F36C497E587AB92C}Prefabs/Vehicles/Wheeled/TIGR/PKP/Tan/GAZ_TIGR_v2_PKM_Shield_Tan.et"
+  respawnDelay 10000
+  firstSpawn 2
+ }
+ GazGreen {
+  coords 7873.613 96.155 6275.168
+  angleY 67.303
+  m_rnPrefab "{6F4D5B56F4905A62}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR_v2_Unarmed_Green.et"
+  respawnDelay 10000
+  firstSpawn 2
+ }
+ GazTan {
+  coords 7871.684 96.155 6279.781
+  angleY 67.303
+  m_rnPrefab "{BF28FEE927BA80F7}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/Tan/GAZ_TIGR_v2_Unarmed_Tan.et"
+  respawnDelay 10000
+  firstSpawn 2
+ }
+ GazCamo {
+  coords 7869.755 96.155 6284.394
+  angleY 67.303
+  m_rnPrefab "{2C9B4D8196812513}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR_v2_Unarmed.et"
+  respawnDelay 10000
+  firstSpawn 2
+ }
+ OpforRally {
+  coords 7702.491 79.662 6518.728
+  angleY -158.436
+  m_rnPrefab "{D44387B398A039A5}Prefabs/Vehicles/Wheeled/S105/Event/S105_rally_64.et"
+  respawnDelay 10000
+  firstSpawn 2
+ }
+ OpforRally2 {
+  coords 7685.669 79.623 6524.826
+  angleY 165.399
+  m_rnPrefab "{BF05D804EE8ACB4C}Prefabs/Vehicles/Wheeled/S105/Event/S105_rally_Mlada_Boleslav_9.et"
+  respawnDelay 10000
+  firstSpawn 2
+ }
+ OpforRally3 {
+  coords 7685.843 79.248 6499.544
+  angleY 22.081
+  m_rnPrefab "{AF6308923B767928}Prefabs/Vehicles/Wheeled/S105/S105_rally_Mlada_Boleslav_Red.et"
+  respawnDelay 10000
+  firstSpawn 2
+ }
+ OpforRally4 {
+  coords 7690.117 79.159 6488.737
+  angleY 84.252
+  m_rnPrefab "{A30DB2DB4BAC3921}Prefabs/Vehicles/Wheeled/S105/S105_rally_Mlada_Boleslav_TF.et"
+  respawnDelay 10000
+  firstSpawn 2
+ }
+}

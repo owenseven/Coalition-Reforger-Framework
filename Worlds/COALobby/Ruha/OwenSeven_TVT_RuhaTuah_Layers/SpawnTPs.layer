@@ -1,0 +1,82 @@
+$grp GenericEntity : "{83618EAF9EFD3E20}Prefabs/Structures/FlagPoles/TeleportPoles/PreJoin_Teleport.et" {
+ LavaTP {
+  components {
+   SCR_FlagComponent "{645A0008C015ACBC}" {
+    m_sDefaultMaterial "{E3BB2EF7F600DD28}Assets/Props/Fabric/Flags/Data/Flag_2_3_CIVILIAN.emat"
+   }
+   ActionsManagerComponent "{645A0008F3808301}" {
+    additionalActions {
+     CRF_TeleportPlayerAction "{645A0008F88C720A}" {
+      UIInfo UIInfo "{645A000816F0F771}" {
+       Name "To Horse Track"
+      }
+      m_sObjectNameToTeleportTo "HorseTrackTP"
+      m_sGearscriptToSet ""
+     }
+     CRF_TeleportPlayerAction "{645A000846476766}" {
+      UIInfo UIInfo "{645A0008464767B1}" {
+       Name "To Horse Track"
+      }
+      m_sObjectNameToTeleportTo "HorseTrackTP"
+      m_sGearscriptToSet ""
+     }
+     CRF_TeleportPlayerAction "{645A000847BA13D3}" {
+      UIInfo UIInfo "{645A000847BA1015}" {
+       Name "To Horse Track"
+      }
+      m_sObjectNameToTeleportTo "HorseTrackTP"
+      m_sGearscriptToSet ""
+     }
+     CRF_TeleportPlayerAction "{645A0008470A47AB}" {
+      UIInfo UIInfo "{645A0008470A47E8}" {
+       Name "To Horse Track"
+      }
+      m_sObjectNameToTeleportTo "HorseTrackTP"
+      m_sGearscriptToSet ""
+     }
+    }
+   }
+  }
+  coords 5117.036 53.5 4737.702
+ }
+ HorseTrackTP {
+  components {
+   SCR_FlagComponent "{645A0008C015ACBC}" {
+    m_sDefaultMaterial "{41FF5ED4614840C9}Assets/Props/Fabric/Flags/Data/Flag_1_2_CIVILIAN.emat"
+   }
+   ActionsManagerComponent "{645A0008F3808301}" {
+    additionalActions {
+     CRF_TeleportPlayerAction "{645A0008F88C720A}" {
+      UIInfo UIInfo "{645A000816F0F771}" {
+       Name "To Lava"
+      }
+      m_sObjectNameToTeleportTo "LavaTP"
+      m_sGearscriptToSet ""
+     }
+     CRF_TeleportPlayerAction "{645A000846476766}" {
+      UIInfo UIInfo "{645A0008464767B1}" {
+       Name "To Lava"
+      }
+      m_sObjectNameToTeleportTo "LavaTP"
+      m_sGearscriptToSet ""
+     }
+     CRF_TeleportPlayerAction "{645A000847BA13D3}" {
+      UIInfo UIInfo "{645A000847BA1015}" {
+       Name "To Lava"
+      }
+      m_sObjectNameToTeleportTo "LavaTP"
+      m_sGearscriptToSet ""
+     }
+     CRF_TeleportPlayerAction "{645A0008470A47AB}" {
+      UIInfo UIInfo "{645A0008470A47E8}" {
+       Name "To Lava"
+      }
+      m_sObjectNameToTeleportTo "LavaTP"
+      m_sGearscriptToSet ""
+     }
+    }
+   }
+  }
+  coords 6073.245 59.687 4288.94
+ }
+}

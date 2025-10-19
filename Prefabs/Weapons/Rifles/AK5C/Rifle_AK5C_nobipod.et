@@ -1,0 +1,22 @@
+GenericEntity : "{79BF3018D789B45A}Prefabs/Weapons/Rifles/AK5C/AK5C_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{651C30BEC14C554A}" {
+     AttachmentSlot InventoryStorageSlot Optic {
+      Prefab "{9C42803E49305273}Prefabs/Weapons/Attachments/Optics/exps/Optic_EXPS3-1.et"
+     }
+    }
+    AttachmentSlotComponent "{651C30BECCE2505D}" {
+     AttachmentSlot InventoryStorageSlot RIS {
+     }
+    }
+    AttachmentSlotComponent "{651C3E903D0189A3}" {
+     AttachmentSlot InventoryStorageSlot Bipod {
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,44 @@
+$grp SCR_VehicleSpawn {
+ AUS_UH60 {
+  coords 6554.968 96.69 1275.749
+  angleY 178.452
+  m_rnPrefab "{48F288F5BFF10D8B}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_armed.et"
+  respawnDelay 10000
+  firstSpawn 2
+ }
+ AH6M_AIM92 {
+  coords 6505.527 96.69 1292.384
+  angleY 178.452
+  m_rnPrefab "{0D355CF9D40F79CA}Prefabs/Vehicles/Helicopters/AH6M/AH6M_AIM92x2.et"
+  respawnDelay 10000
+  firstSpawn 2
+ }
+ BluforKam {
+  coords 6638.584 96.656 1276.425
+  angleY 175.064
+  m_rnPrefab "{EE7CC261D00544F5}Prefabs/Vehicles/Wheeled/KamAZ5350/Civilian/Kamaz5350_Civilian_Blue.et"
+  respawnDelay 10000
+  firstSpawn 2
+ }
+ BluforKam2 {
+  coords 6643.36 96.656 1276.541
+  angleY 175.064
+  m_rnPrefab "{EE7CC261D00544F5}Prefabs/Vehicles/Wheeled/KamAZ5350/Civilian/Kamaz5350_Civilian_Blue.et"
+  respawnDelay 10000
+  firstSpawn 2
+ }
+ BluforAmbo {
+  coords 6684.598 96.656 1284.126
+  angleY -164.162
+  m_rnPrefab "{00C9BBE426F7D459}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance.et"
+  respawnDelay 10000
+  firstSpawn 2
+ }
+ BluforAmbo2 {
+  coords 6694.948 96.656 1283.941
+  angleY 174.883
+  m_rnPrefab "{00C9BBE426F7D459}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance.et"
+  respawnDelay 10000
+  firstSpawn 2
+ }
+}

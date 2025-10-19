@@ -1,0 +1,36 @@
+Vehicle : "{3085BE631A0DDBDE}Prefabs/Vehicles/Wheeled/M998/M1025_armed_BGM-71.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{66A30AB1654ED2FD}" {
+     SourceMaterial "Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body"
+     AssignedMaterial "{036B6135DAF74E00}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Merdc.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{FEAD974115F7D804}UI/Textures/EditorPreviews/Vehicles/Wheeled/M998/M966_armed_BGM-71_MERDC.edds"
+   }
+  }
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     m_fInitialFuelTankState 0
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Roof {
+     Prefab "{CBF226E05FE69C9C}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_roof_BGM-71_MERDC.et"
+     RegisterActions 1
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   Enabled 0
+  }
+ }
+}

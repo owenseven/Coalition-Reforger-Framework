@@ -1,0 +1,13 @@
+SCR_AIGroup : "{B57F271D229B3074}Prefabs/Groups/CIV/Standard/Dev/CRF_CIV_VIP_P.et" {
+ coords 5119.703 53.733 4732.98
+ angleY -38.735
+ {
+  SCR_AIGroup : "{29CA3A88FC500B66}Prefabs/Groups/CIV/Standard/Dev/CRF_CIV_DevRifleman_p.et" {
+   coords -1.269 0 7.646
+   angleY 87.395
+   m_aUnitPrefabSlots {
+    "{71EF8F2C5207403C}Prefabs/Characters/Factions/CIV/CRF_GS_CIV_Rifleman_P.et" "{71EF8F2C5207403C}Prefabs/Characters/Factions/CIV/CRF_GS_CIV_Rifleman_P.et" "{71EF8F2C5207403C}Prefabs/Characters/Factions/CIV/CRF_GS_CIV_Rifleman_P.et" "{71EF8F2C5207403C}Prefabs/Characters/Factions/CIV/CRF_GS_CIV_Rifleman_P.et" "{71EF8F2C5207403C}Prefabs/Characters/Factions/CIV/CRF_GS_CIV_Rifleman_P.et" "{71EF8F2C5207403C}Prefabs/Characters/Factions/CIV/CRF_GS_CIV_Rifleman_P.et"
+   }
+  }
+ }
+}

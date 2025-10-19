@@ -1,0 +1,15 @@
+GameEntity : "{E6A63966ED252156}Prefabs/Characters/HeadGear/Helmet_ECH/variants/Helmet_ECH_lc_c_l_PVS14.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo MeshCover {
+     Prefab "{FE3998A85E9C205E}Prefabs/Characters/HeadGear/Helmet_ECH/Headgear_ECH_hc_cover_aor.et"
+    }
+    RHS_LoadoutSlotInfo NVG {
+     Enabled 0
+    }
+   }
+  }
+ }
+}

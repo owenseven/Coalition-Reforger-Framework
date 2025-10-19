@@ -1,0 +1,95 @@
+$grp CRF_ManualMarker : "{7B677FB61E410D0D}PrefabsEditable/Markers/ObjectiveMarker.et" {
+ LavaPOIMarker {
+  coords 5105.553 53.5 4833.332
+  angleY 90
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "point-of-interest"
+  m_sDescription "Ruha Lava"
+  m_bShowForAnyFaction 1
+ }
+ HorseTrackPOIMarker {
+  coords 6059.97 59.5 4266.37
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "point-of-interest"
+  m_sDescription "Horse Track"
+  m_bShowForAnyFaction 1
+ }
+ StoppedTrainMarker {
+  coords 5341.404 59.779 4236.596
+  m_MarkerColor 0 0.125 0.502 1
+  m_sDescription "Stopped Train Convoy"\
+  ""
+  m_bShowForAnyFaction 1
+ }
+ StoppedTrainMarker2 {
+  coords 5272.963 58.27 4130.806
+  m_MarkerColor 0 0.125 0.502 1
+  m_sDescription "Stopped Train Convoy"\
+  ""
+  m_bShowForAnyFaction 1
+ }
+ BluforEnter {
+  coords 3486.354 57.181 1942.789
+  angleY 40.456
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "arrow-large"
+  m_sDescription "Blufor"
+  m_bShowForAnyFaction 1
+ }
+ BluforEnter2 {
+  coords 4021.657 60.875 1558.975
+  angleY 43.583
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "arrow-large"
+  m_sDescription "Blufor"
+  m_bShowForAnyFaction 1
+ }
+ BluforEnter3 {
+  coords 4930.423 70.344 1298.749
+  angleY 21.867
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "arrow-large"
+  m_sDescription "Blufor"
+  m_bShowForAnyFaction 1
+ }
+ BluforEnter4 {
+  coords 7061.635 96.656 1306.099
+  angleY -20.568
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "arrow-large"
+  m_sDescription "Blufor"
+  m_bShowForAnyFaction 1
+ }
+ OpforEnter {
+  coords 8143.792 91.373 6519.442
+  angleY -156.067
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "arrow-large"
+  m_sDescription "Opfor"
+  m_bShowForAnyFaction 1
+ }
+ OpforEnter2 {
+  coords 7513.104 141.482 6813.765
+  angleY -157.798
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "arrow-large"
+  m_sDescription "Opfor"
+  m_bShowForAnyFaction 1
+ }
+ OpforEnter3 {
+  coords 6098.933 56.625 7088.172
+  angleY 177.961
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "arrow-large"
+  m_sDescription "Opfor"
+  m_bShowForAnyFaction 1
+ }
+ OpforEnter4 {
+  coords 5419.984 69.673 6565.496
+  angleY 158.872
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "arrow-large"
+  m_sDescription "Opfor"
+  m_bShowForAnyFaction 1
+ }
+}

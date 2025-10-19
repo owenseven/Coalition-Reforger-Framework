@@ -1,0 +1,122 @@
+$grp CRF_ManualMarker : "{7B677FB61E410D0D}PrefabsEditable/Markers/ObjectiveMarker.et" {
+ CivBoundryMarks {
+  coords 6132.494 62.372 4335.256
+  angleY 0
+  m_MarkerColor 0.377 0 0.283 1
+  m_sQuadName "dot"
+  m_sDescription "Civ Boundry"
+  m_aVisibleForFactions {
+   "CIV"
+  }
+ }
+ CivBoundryMarks2 {
+  coords 6100.543 61.077 4270.365
+  angleY 0
+  m_MarkerColor 0.377 0 0.283 1
+  m_sQuadName "dot"
+  m_sDescription "Civ Boundry"
+  m_aVisibleForFactions {
+   "CIV"
+  }
+ }
+ CivBoundryMarks3 {
+  coords 6068.109 59.5 4158.09
+  angleY 0
+  m_MarkerColor 0.377 0 0.283 1
+  m_sQuadName "dot"
+  m_sDescription "Civ Boundry"
+  m_aVisibleForFactions {
+   "CIV"
+  }
+ }
+ CivBoundryMarks4 {
+  coords 5990.324 59.526 4191.487
+  angleY 0
+  m_MarkerColor 0.377 0 0.283 1
+  m_sQuadName "dot"
+  m_sDescription "Civ Boundry"
+  m_aVisibleForFactions {
+   "CIV"
+  }
+ }
+ CivBoundryMarks5 {
+  coords 6031.625 59.687 4338.765
+  angleY 0
+  m_MarkerColor 0.377 0 0.283 1
+  m_sQuadName "dot"
+  m_sDescription "Civ Boundry"
+  m_aVisibleForFactions {
+   "CIV"
+  }
+ }
+ CivBoundryMarks6 {
+  coords 6065.15 59.834 4377.5
+  angleY 0
+  m_MarkerColor 0.377 0 0.283 1
+  m_sQuadName "dot"
+  m_sDescription "Civ Boundry"
+  m_aVisibleForFactions {
+   "CIV"
+  }
+ }
+ CivBoundryMarks7 {
+  coords 5194.94 50.153 4711.986
+  angleY 0
+  m_MarkerColor 0.377 0 0.283 1
+  m_sQuadName "dot"
+  m_sDescription "Civ Boundry"
+  m_aVisibleForFactions {
+   "CIV"
+  }
+ }
+ CivBoundryMarks8 {
+  coords 5139.908 50.153 4663.753
+  angleY 0
+  m_MarkerColor 0.377 0 0.283 1
+  m_sQuadName "dot"
+  m_sDescription "Civ Boundry"
+  m_aVisibleForFactions {
+   "CIV"
+  }
+ }
+ CivBoundryMarks9 {
+  coords 5122.15 50.153 4675.622
+  angleY 0
+  m_MarkerColor 0.377 0 0.283 1
+  m_sQuadName "dot"
+  m_sDescription "Civ Boundry"
+  m_aVisibleForFactions {
+   "CIV"
+  }
+ }
+ CivBoundryMarks10 {
+  coords 5033.482 51.835 4832.758
+  angleY 0
+  m_MarkerColor 0.377 0 0.283 1
+  m_sQuadName "dot"
+  m_sDescription "Civ Boundry"
+  m_aVisibleForFactions {
+   "CIV"
+  }
+ }
+ CivBoundryMarks11 {
+  coords 5144.811 54 4960.033
+  angleY 0
+  m_MarkerColor 0.377 0 0.283 1
+  m_sQuadName "dot"
+  m_sDescription "Civ Boundry"
+  m_aVisibleForFactions {
+   "CIV"
+  }
+ }
+ CivBoundryMarks12 {
+  coords 5212.422 53.838 4824.148
+  angleY 0
+  m_MarkerColor 0.377 0 0.283 1
+  m_sQuadName "dot"
+  m_sDescription "Civ Boundry"
+  m_aVisibleForFactions {
+   "CIV"
+  }
+ }
+}

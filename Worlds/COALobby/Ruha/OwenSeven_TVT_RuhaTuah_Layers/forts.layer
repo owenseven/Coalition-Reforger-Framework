@@ -1,0 +1,212 @@
+GenericEntity BluforStartMattress : "{04B368F4ED9D8934}Prefabs/Props/Recreation/Beach/AirMattress_01/AirMattress_01_base.et" {
+ coords 6743.875 96.719 1214.21
+ angleY -124.153
+ scale 2
+}
+GenericEntity BluforTinyPiano : "{1F415A3F7ECBE13A}Prefabs/Props/Furniture/Piano_01_brown.et" {
+ coords 6738.755 96.719 1185.118
+ angleY 91.636
+ scale 0.38
+}
+$grp Vehicle : "{3B1EB924602C7A07}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance_MERDC.et" {
+ TrainMedicTruck2 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+  }
+  coords 5346.107 59.841 4245.122
+  angleY -148.042
+ }
+ TrainMedicTruck3 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+  }
+  coords 5349.034 59.796 4249.813
+  angleY -148.042
+ }
+ TrainMedicTruck4 {
+  components {
+   SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+    FuelNodes {
+     SCR_FuelNode "{5622A70CD4036C5A}" {
+      m_fInitialFuelTankState 0
+     }
+    }
+   }
+  }
+  coords 5343.137 59.841 4240.362
+  angleY -148.042
+ }
+}
+GenericEntity BluforCaravan : "{3D9B780ABF8DEE7C}Prefabs/Props/Recreation/Beach/Caravan_03/Caravan_03.et" {
+ coords 6746.66 96.719 1218.104
+ angleY 143.674
+}
+GenericEntity BluforTent : "{4637B9AAAB2AAA5F}Prefabs/Props/Recreation/Beach/BlanketBeach_01/BlanketBeach_01_green.et" {
+ coords 6748.188 96.719 1205.219
+ angleY 10.958
+ scale 1.58
+}
+GenericEntity BluforTent2 : "{47AE94F99DF6445F}Prefabs/Props/Recreation/Beach/BlanketBeach_01/BlanketBeach_01_brown.et" {
+ coords 6748.547 96.719 1211.645
+ angleY -9.888
+}
+GenericEntity BluforTinyBilliard : "{4BF9D2FB26F6B9C2}Prefabs/Props/Civilian/Billiard_01/Billiard_01.et" {
+ coords 6747.57 96.733 1203.279
+ angleY 108.424
+ scale 0.34
+}
+GenericEntity BluforLounge : "{5726FEB3D7266124}Prefabs/Props/Recreation/Beach/Lounger_01/Lounger_01_red.et" {
+ coords 6743.715 96.719 1204.873
+ angleY -70.507
+}
+GenericEntity BluforMattress2 : "{5DF6D3B2EC2198ED}Prefabs/Props/Recreation/Beach/AirMattress_01/AirMattress_01_red.et" {
+ coords 6740.905 96.719 1201.351
+ scale 0.78
+}
+GenericEntity BluforBlanket : "{6EB3EE4FE50E0319}Prefabs/Props/Recreation/Beach/BlanketBeach_01/BlanketBeach_01_red.et" {
+ coords 6744.784 96.719 1199.015
+ angleY 3.724
+}
+GenericEntity BluforTent3 : "{77329CA32D3179DF}Prefabs/Props/Recreation/Camp/TentBig_01/TentBig_01_base.et" {
+ coords 6744.78 96.719 1199.021
+ angleY -51.805
+ scale 0.86
+}
+GenericEntity BluforTent4 : "{82E175249B28B1ED}Prefabs/Props/Recreation/Camp/TentBig_02/TentBig_02_base.et" {
+ coords 6747.666 96.719 1211.442
+ angleY -100.498
+ scale 0.75
+}
+GenericEntity BluforTent5 : "{9E026C6D62171AF3}Prefabs/Props/Recreation/Camp/TentBig_01/TentBig_01_blue.et" {
+ coords 6747.909 96.719 1204.819
+ angleY -72.688
+ scale 1.51
+}
+$grp GenericEntity : "{B08DF585ECD2CF4D}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_SideSquareNarrow.et" {
+ TrainAltPlatform {
+  coords 5271.267 59.646 4128.516
+  angleY -57.299
+  angleZ 90
+  scale 1.468
+ }
+ TrainAltPlatform2 {
+  coords 5268.535 59.616 4124.259
+  angleY -57.299
+  angleZ 90
+  scale 1.468
+ }
+ TrainAltPlatform3 {
+  coords 5265.896 59.646 4120.149
+  angleY -57.299
+  angleZ 90
+  scale 1.468
+ }
+}
+$grp GenericEntity : "{C1868B74D5A0C96E}Prefabs/Props/Military/CargoContainers/CargoContainer_01_20ft_USSR_ammo.et" {
+ TrainExplCrate2 {
+  coords 5190.737 58.778 4000.734
+  angleY 32.668
+  scale 0.87
+ }
+ TrainExplCrate {
+  coords 5193.858 58.778 4005.767
+  angleY 32.286
+  scale 0.87
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{CF86E4F10D9173E9}Prefabs/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Narrow_Long_Base.et" {
+ TrainPlatform {
+  coords 5342.221 59.524 4238.994
+  angleY 121.998
+  angleZ -180
+  scale 0.222
+ }
+ TrainPlatform2 {
+  coords 5345.177 59.496 4243.729
+  angleY 121.998
+  angleZ -180
+  scale 0.222
+ }
+ TrainPlatform3 {
+  coords 5347.211 59.508 4246.98
+  angleY 121.998
+  angleZ -180
+  scale 0.222
+ }
+ TrainPlatform6 {
+  coords 5331.603 59.524 4221.824
+  angleY 121.998
+  angleZ -180
+  scale 0.237
+ }
+ TrainPlatform7 {
+  coords 5279.075 59.455 4140.748
+  angleY 122.671
+  angleZ -180
+  scale 0.231
+ }
+ TrainPlatform4 {
+  coords 5334.734 59.521 4226.887
+  angleY 121.998
+  angleZ -180
+  scale 0.237
+ }
+ TrainPlatform5 {
+  coords 5336.357 59.53 4229.497
+  angleY 121.998
+  angleZ -180
+  scale 0.237
+ }
+ TrainPlatform8 {
+  coords 5276.88 59.446 4137.327
+  angleY 122.671
+  angleZ -180
+  scale 0.231
+ }
+ TrainPlatform9 {
+  coords 5274.098 59.446 4132.989
+  angleY 122.671
+  angleZ -180
+  scale 0.231
+ }
+ TrainPlatform10 {
+  coords 5274.098 59.47 4132.989
+  angleY 122.671
+  angleZ -180
+  scale 0.231
+ }
+}
+GenericEntity BluforDarts : "{D9C33CE6093E1208}Prefabs/Props/Civilian/Dartboard_01/Dartboard_01.et" {
+ coords 6745.978 98.33 1204.271
+ angleY -76.241
+ scale 2.17
+}
+$grp GenericEntity : "{F15B99F6B06E7200}Prefabs/Structures/Military/Radar/ApproachRadar_RPL5_01/ApproachRadar_RPL5_01_generator.et" {
+ TrainGenerator {
+  coords 5200.765 58.593 4016.841
+  angleY 32.18
+  scale 0.818
+ }
+ TrainGenerator2 {
+  coords 5202.915 58.593 4020.257
+  angleY 32.18
+  scale 0.818
+ }
+ TrainGenerator3 {
+  coords 5205.169 58.593 4023.84
+  angleY 32.18
+  scale 0.818
+ }
+}
