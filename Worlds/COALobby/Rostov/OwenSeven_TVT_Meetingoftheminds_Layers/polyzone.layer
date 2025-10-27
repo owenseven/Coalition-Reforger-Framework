@@ -1,0 +1,95 @@
+PolylineShapeEntity : "{318DDE6633C34CF1}PrefabsEditable/PolyZone/GameBoundry.et" {
+ coords 7382.732 156.378 4146.861
+ Points {
+  ShapePoint "{66B6D1EFCA843A4C}" {
+   Position 59.808 0 224.439
+  }
+  ShapePoint "{66B6D1EFCC1201DB}" {
+   Position 347.649 0 -2087.817
+  }
+  ShapePoint "{66B6D1EFCEE3C412}" {
+   Position -1731.907 0 -2906.248
+  }
+  ShapePoint "{66B6D1EFCFF15E57}" {
+   Position -4048.563 0 -2649.729
+  }
+  ShapePoint "{66B6D1EFC08E9367}" {
+   Position -4396.657 0 -1782.309
+  }
+  ShapePoint "{66B6D1EFC2E2A492}" {
+   Position -4333.993 0 -184.7
+  }
+  ShapePoint "{66B6D1EFC3500428}" {
+   Position -3720.361 0 586.468
+  }
+  ShapePoint "{66B6D1EFC49D4D19}" {
+   Position -2671.885 0 960.179
+  }
+ }
+}
+PolylineShapeEntity IndforSafe : "{36DDFCD0D6C43000}PrefabsEditable/PolyZone/INDFORSafestartBoundry.et" {
+ coords 6605.602 188.807 3188.049
+ Points {
+  ShapePoint "{66B6D1EFEBAFE8F1}" {
+   Position 142.101 0 -46.418
+  }
+  ShapePoint "{66B6D1EFEC113172}" {
+   Position 124.261 0 -153.884
+  }
+  ShapePoint "{66B6D1EFED058C35}" {
+   Position 82.241 0 -268.39
+  }
+  ShapePoint "{66B6D1EFEE9B3337}" {
+   Position -90.729 0 -265.773
+  }
+  ShapePoint "{66B6D1EFEF6608D0}" {
+   Position -119.729 0 -67.31
+  }
+  ShapePoint "{66B6D1EFE03B8D49}" {
+   Position -119.676 0 -13.407
+  }
+  ShapePoint "{66B6D1EFE1A4C218}" {
+   Position 94.961 0 -16.658
+  }
+ }
+}
+PolylineShapeEntity BLuforSafe : "{8AE1D02BC25C93C5}PrefabsEditable/PolyZone/BLUFORSafestartBoundry.et" {
+ coords 4400.084 126.452 2510.18
+ Points {
+  ShapePoint "{66B6D1EF9C526924}" {
+   Position 134.225 0 91.557
+  }
+  ShapePoint "{66B6D1EF90E09E1A}" {
+   Position -142.37 0 -104.102
+  }
+  ShapePoint "{66B6D1EF91F6F3C0}" {
+   Position -184.665 0 31.55
+  }
+  ShapePoint "{66B6D1EF92FA43D4}" {
+   Position -146.31 0 113.863
+  }
+  ShapePoint "{66B6D1EF93A4B798}" {
+   Position -17.1 0 129.21
+  }
+  ShapePoint "{66B6D1EF94955818}" {
+   Position 70.259 0 117.313
+  }
+ }
+}
+PolylineShapeEntity OpforSafe : "{D8E7812AC12E29EB}PrefabsEditable/PolyZone/OPFORSafestartBoundry.et" {
+ coords 4366.993 117.188 4303.346
+ Points {
+  ShapePoint "{66B6D1EF860F58BF}" {
+   Position -103.974 0 32.786
+  }
+  ShapePoint "{66B6D1EF871AFAA7}" {
+   Position -54.521 -0 174.552
+  }
+  ShapePoint "{66B6D1EFF80424EE}" {
+   Position 136.83 -0 121.589
+  }
+  ShapePoint "{66B6D1EFF923E3BB}" {
+   Position 122.166 0 -28.903
+  }
+ }
+}

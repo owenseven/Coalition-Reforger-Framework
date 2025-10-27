@@ -1,0 +1,49 @@
+GenericEntity OpforVicDepot2 : "{02D89CB8A159DDF0}Prefabs/Systems/VehicleDepot/VehicleDepot_Cache.et" {
+ components {
+  CRF_VehicleDepot "{664C7C2465880153}" {
+   m_fSupplySearchRadius 50
+   m_aVehicles {
+    CRF_VehicleDepotVehicle "{664C7C2458016B5B}" {
+     m_sVehicleName "UAZ Ambulance"
+     m_sVehiclePrefab "{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance.et"
+    }
+    CRF_VehicleDepotVehicle "{66B6D1E742CA692A}" {
+     m_sVehicleName "UAZ PKM"
+     m_sVehiclePrefab "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et"
+     m_eCostType SUPPLIES
+     m_iCost 100
+    }
+    CRF_VehicleDepotVehicle "{66B6D1E79956C233}" {
+     m_sVehicleName "UAZ Transport (Covered)"
+     m_sVehiclePrefab "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et"
+     m_eCostType SUPPLIES
+     m_iCost 50
+    }
+    CRF_VehicleDepotVehicle "{66B6D1E61BD8EC5B}" {
+     m_sVehicleName "UAZ Transport (Uncovered)"
+     m_sVehiclePrefab "{16A674FE31B0921C}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered.et"
+     m_eCostType SUPPLIES
+     m_iCost 25
+    }
+   }
+   m_bRestrictToLeadership 1
+   m_bEnableSpawnVisuals 1
+  }
+ }
+ coords 4367.006 117.375 4368.328
+ angleY 20.333
+}
+GenericEntity OpforSuppliesVics2 : "{687A661759E0249B}Prefabs/Props/Military/SupplyBox/SupplyShippingContainers/SupplyShippingContainers_01/SupplyShippingContainers_01_10ft_Base.et" {
+ components {
+  SCR_ResourceComponent "{5D247A59598D71AE}" {
+   m_aContainers {
+    SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+     m_fResourceValueCurrent 400
+     m_fResourceValueMax 400
+    }
+   }
+  }
+ }
+ coords 4363.375 117.271 4370.917
+ angleY -70.838
+}

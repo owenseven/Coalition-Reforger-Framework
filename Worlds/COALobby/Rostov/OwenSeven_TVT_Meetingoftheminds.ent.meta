@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{D9E94231D52B9DA6}Worlds/COALobby/Rostov/OwenSeven_TVT_Meetingoftheminds.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+  ENTResourceClass Xbox : PC {
+  }
+ }
+}

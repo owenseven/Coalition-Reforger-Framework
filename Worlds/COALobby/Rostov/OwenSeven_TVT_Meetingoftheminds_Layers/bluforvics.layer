@@ -1,0 +1,55 @@
+GenericEntity BluforVicDepot : "{02D89CB8A159DDF0}Prefabs/Systems/VehicleDepot/VehicleDepot_Cache.et" {
+ components {
+  CRF_VehicleDepot "{664C7C2465880153}" {
+   m_fSupplySearchRadius 50
+   m_aVehicles {
+    CRF_VehicleDepotVehicle "{664C7C2458016B5B}" {
+     m_sVehicleName "HMMV Ambulance"
+     m_sVehiclePrefab "{3B1EB924602C7A07}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance_MERDC.et"
+    }
+    CRF_VehicleDepotVehicle "{66B6D1E742CA692A}" {
+     m_sVehicleName "HMMV M240"
+     m_sVehiclePrefab "{54119F2F0C1894E2}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M240B_MERDC.et"
+     m_eCostType SUPPLIES
+     m_iCost 100
+    }
+    CRF_VehicleDepotVehicle "{66B6D1E79956C233}" {
+     m_sVehicleName "HMMV Transport (Light Armor)"
+     m_sVehiclePrefab "{27E2E58E734A80EC}Prefabs/Vehicles/Wheeled/M998/M1025_MERDC.et"
+     m_eCostType SUPPLIES
+     m_iCost 50
+    }
+    CRF_VehicleDepotVehicle "{66B6D1E61BD8EC5B}" {
+     m_sVehicleName "HMMV Transport (No Armor)"
+     m_sVehiclePrefab "{751AFEEA19DDFB04}Prefabs/Vehicles/Wheeled/M998/M998_covered_long_MERDC.et"
+     m_eCostType SUPPLIES
+     m_iCost 25
+    }
+    CRF_VehicleDepotVehicle "{66B6D1E60EDF83FB}" {
+     m_sVehicleName "HMMV Transport Pickup (No Armor)"
+     m_sVehiclePrefab "{AF0578D66D51946B}Prefabs/Vehicles/Wheeled/M998/M998_covered_MERDC.et"
+     m_eCostType SUPPLIES
+     m_iCost 25
+    }
+   }
+   m_bRestrictToLeadership 1
+   m_bEnableSpawnVisuals 1
+  }
+ }
+ coords 4314.2 122.258 2569.169
+ angleY 84.454
+}
+GenericEntity BluforSuppliesVics : "{687A661759E0249B}Prefabs/Props/Military/SupplyBox/SupplyShippingContainers/SupplyShippingContainers_01/SupplyShippingContainers_01_10ft_Base.et" {
+ components {
+  SCR_ResourceComponent "{5D247A59598D71AE}" {
+   m_aContainers {
+    SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+     m_fResourceValueCurrent 400
+     m_fResourceValueMax 400
+    }
+   }
+  }
+ }
+ coords 4314.945 122.154 2573.566
+ angleY -6.717
+}

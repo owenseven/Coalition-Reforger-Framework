@@ -1,0 +1,18 @@
+SCR_MapEntity SCR_MapEntity1 {
+ coords 5265.17 153.251 3280.135
+ "Map Geometry Data" "{4D13DC42EAA6321E}Terrain/WCS_Rostov_Conflict_NEvSW_Layout1.topo"
+ "Satellite background image" "{4CDC017532F1D3F5}UI/Textures/Map/Worlds/Rostov/Rostov.edds"
+}
+SCR_AIWorld : "{998834C2F010C11A}Prefabs/AI/SCR_AIWorld_Rostov.et" {
+ coords 4815.728 133.022 2631.198
+}
+CRF_Gamemode CRF_Lobby1 : "{6A996BBFCEB37E78}Prefabs/MP/Modes/Lobby/CRF_Lobby.et" {
+ coords 5022.694 139.304 2633.51
+ m_iTimeLimitMinutes 60
+ m_bLockSlotsAfterSafestart 0
+ m_sFactionOneKey "BLU"
+ m_sFactionTwoKey "OPF"
+ m_INDFORGearScriptSettings CRF_GearScriptContainer "{64570ACB9AE1C9ED}" {
+  m_rGearScript "{F3FF214BDE0E57A2}Configs/Gearscripts/Custom/Owen7/CRF_GS_PMC1.conf"
+ }
+}

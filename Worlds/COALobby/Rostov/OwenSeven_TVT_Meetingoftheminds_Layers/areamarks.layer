@@ -1,0 +1,80 @@
+$grp CRF_ManualMarker : "{7B677FB61E410D0D}PrefabsEditable/Markers/ObjectiveMarker.et" {
+ BluforEnter {
+  coords 3790.884 128.588 2131.109
+  angleY 55.241
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "arrow-large"
+  m_sDescription "Blufor"
+  m_bShowForAnyFaction 1
+ }
+ BluforEnter2 {
+  coords 3459.675 92.686 2737.791
+  angleY 78.955
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "arrow-large"
+  m_sDescription "Blufor"
+  m_bShowForAnyFaction 1
+ }
+ BluforEnter3 {
+  coords 4811.349 168.371 1537.361
+  angleY 20.029
+  m_MarkerColor 0 0.125 0.502 1
+  m_sQuadName "arrow-large"
+  m_sDescription "Blufor"
+  m_bShowForAnyFaction 1
+ }
+ IndforEnter {
+  coords 6590.897 170.877 2260.272
+  angleY -50.953
+  m_MarkerColor 0 0.502 0.125 1
+  m_sQuadName "arrow-large"
+  m_sDescription "Indfor"
+  m_bShowForAnyFaction 1
+ }
+ IndforEnter2 {
+  coords 7104.376 180.296 2603.021
+  angleY -56.456
+  m_MarkerColor 0 0.502 0.125 1
+  m_sQuadName "arrow-large"
+  m_sDescription "Indfor"
+  m_bShowForAnyFaction 1
+ }
+ IndforEnter3 {
+  coords 7147.801 181.606 3466.414
+  angleY -90.069
+  m_MarkerColor 0 0.502 0.125 1
+  m_sQuadName "arrow-large"
+  m_sDescription "Indfor"
+  m_bShowForAnyFaction 1
+ }
+ OpforEnter {
+  coords 4104.512 120.113 4624.098
+  angleY 136.058
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "arrow-large"
+  m_sDescription "Opfor"
+  m_bShowForAnyFaction 1
+ }
+ OpforEnter2 {
+  coords 4729.241 93.256 4892.86
+  angleY 158.565
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "arrow-large"
+  m_sDescription "Opfor"
+  m_bShowForAnyFaction 1
+ }
+ OpforEnter3 {
+  coords 3864.129 48.351 3910.509
+  angleY 111.718
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "arrow-large"
+  m_sDescription "Opfor"
+  m_bShowForAnyFaction 1
+ }
+ OBJ {
+  coords 5299.246 154.75 3253.013
+  m_MarkerColor 0 0.001 0.002 1
+  m_sDescription "Objective"
+  m_bShowForAnyFaction 1
+ }
+}

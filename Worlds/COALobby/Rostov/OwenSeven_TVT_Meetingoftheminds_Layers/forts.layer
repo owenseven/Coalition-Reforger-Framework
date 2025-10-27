@@ -1,0 +1,45 @@
+GenericEntity : "{22E2462FA3AE0849}Prefabs/Props/Construction/ConcretePipe/ConcretePipe_01_Long_Pile.et" {
+ coords 4657.437 127.037 2725.533
+ angleY 70.961
+}
+GenericEntity TCFlag : "{4F2A80AEECEA822B}Prefabs/Props/Fabric/Flags/Flag_2_3_White_01.et" {
+ coords 5241.438 158.786 3254.518
+}
+$grp GenericEntity : "{5E249786B7A6896D}Prefabs/Props/Construction/ConcretePipe/ConcretePipe_01_Large.et" {
+ {
+  coords 4653.977 126.922 2729.116
+ }
+ {
+  coords 4650.75 126.818 2729.418
+ }
+ {
+  coords 4646.453 126.701 2730.39
+ }
+ {
+  coords 4642.417 126.612 2731.141
+ }
+ {
+  coords 4639.039 126.502 2731.515
+ }
+ {
+  coords 4636.407 126.364 2731.822
+ }
+}
+GenericEntity : "{6720CD0D5B7B7768}Prefabs/Props/Construction/ConcretePipe/ConcretePipe_01_Long.et" {
+ coords 4657.049 127.079 2719.847
+ angleY 100.718
+}
+GenericEntity : "{A419F4547954DA05}Prefabs/Props/Construction/CableReel/CableReelWooden_01.et" {
+ coords 4654.795 126.913 2712.861
+}
+GenericEntity ChurchFlag : "{B45768155DB414F2}Prefabs/Structures/Frontline/Flags/Flag_Zone_A.et" {
+ coords 5291.093 193.356 3232.933
+ scale 9.814
+}
+GenericEntity : "{C51A49ACBB2EF063}Prefabs/Props/Construction/ContainerMetal_01/ContainerMetal_01_blue.et" {
+ coords 4652.281 126.84 2707.125
+}
+GenericEntity CastleFlag : "{D8035CF5E1709BDC}Prefabs/Structures/Frontline/Flags/Flag_Zone_B.et" {
+ coords 5319.983 180.442 3271.953
+ scale 6.625
+}
