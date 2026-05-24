@@ -1,0 +1,348 @@
+SCR_DestructibleBuildingEntity : "{08180048BC11F3B5}Prefabs/Props/Wrecks/ShipWreckMetal_01/ShipWreckMetal_01.et" {
+ coords 2985.429 -1.1 2839.448
+ angles 0 -94.985 0
+}
+$grp GenericEntity : "{0A3AC51FE122CF1B}Prefabs/Props/Trains/Train_Bleu_01.et" {
+ {
+  coords 2606.424 8.717 2784.049
+  angles 0 -71.644 0
+  scale 2.97
+ }
+ {
+  coords 2646.763 8.717 2770.665
+  angles 0 -71.644 0
+  scale 2.97
+ }
+}
+$grp GenericEntity : "{135CA0A43A72F2DE}Prefabs/Props/boat/portecereal.et" {
+ {
+  coords 2935.253 -1.193 2693.092
+  angles 0 -71.133 0
+ }
+ {
+  coords 3306.061 -1.193 2677.547
+  angles 0 -77.465 0
+ }
+ {
+  coords 2923.002 -1.193 2940.929
+  angles 0 -84.715 0
+ }
+ {
+  coords 5031.064 -1.301 2757.322
+  angles 0 -77.465 0
+ }
+}
+$grp GenericEntity : "{1855751A9E1856D6}Prefabs/Props/boat/portecontainer.et" {
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    ResponseIndex "Normal"
+   }
+  }
+  coords 2632.038 -7.225 2775.597
+  angles 0 -71.714 0
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    ResponseIndex "Normal"
+   }
+  }
+  coords 3770.79 -7.225 2696.272
+  angles 0 -71.714 0
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    ResponseIndex "Normal"
+   }
+  }
+  coords 2901.062 -7.225 3040.542
+  angles 0 75.722 0
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    ResponseIndex "Normal"
+   }
+  }
+  coords 3910.94 -7.225 3630.232
+  angles 0 69.18 0
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{48023B0C1DCC8F0D}Prefabs/Structures/Infrastructure/Naval/Piers/PierWooden_01_10m.et" {
+ {
+  coords 5210.59 0 3650.198
+  angles 0 61.475 0
+ }
+ {
+  coords 5219.725 0 3655.163
+  angles 0 61.475 0
+ }
+ {
+  coords 5228.943 0 3660.172
+  angles 0 61.475 0
+ }
+ {
+  coords 5238.078 0 3665.137
+  angles 0 61.475 0
+ }
+ {
+  coords 5247.251 0 3670.123
+  angles 0 61.475 0
+ }
+ {
+  coords 5256.456 0 3675.125
+  angles 0 61.475 0
+ }
+ {
+  coords 5265.571 0 3680.079
+  angles 0 61.475 0
+ }
+ {
+  coords 5215.279 0 3663.342
+  angles 0 61.475 0
+ }
+ {
+  coords 5224.498 0 3668.352
+  angles 0 61.475 0
+ }
+ {
+  coords 5233.632 0 3673.317
+  angles 0 61.475 0
+ }
+ {
+  coords 5242.806 0 3678.302
+  angles 0 61.475 0
+ }
+ {
+  coords 5252.01 0 3683.305
+  angles 0 61.475 0
+ }
+ {
+  coords 5261.125 0 3688.259
+  angles 0 61.475 0
+ }
+ {
+  coords 5206.144 0 3658.377
+  angles 0 61.475 0
+ }
+ {
+  coords 5258.895 0 3675.327
+  angles 0 -28.535 0
+ }
+ {
+  coords 5262.437 0 3668.814
+  angles 0 -28.535 0
+ }
+ {
+  coords 5276.1 0 3676.244
+  angles 0 -28.535 0
+ }
+ {
+  coords 5272.558 0 3682.757
+  angles 0 -28.535 0
+ }
+ {
+  coords 5267.458 0 3692.137
+  angles 0 -28.535 0
+ }
+ {
+  coords 5263.916 0 3698.65
+  angles 0 -28.535 0
+ }
+ {
+  coords 5258.857 0 3707.955
+  angles 0 -28.535 0
+ }
+ {
+  coords 5244.768 0 3700.294
+  angles 0 -28.535 0
+ }
+ {
+  coords 5249.827 0 3690.989
+  angles 0 -28.535 0
+ }
+ {
+  coords 5258.228 0 3706.833
+  angles 0 61.475 0
+ }
+ {
+  coords 5254.738 0 3704.936
+  angles 0 61.475 0
+ }
+ {
+  coords 5276.214 0 3665.423
+  angles 0 61.475 0
+ }
+ {
+  coords 5279.704 0 3667.32
+  angles 0 61.475 0
+ }
+}
+GenericEntity : "{4923E218F59644B9}Prefabs/Props/Wrecks/BoatWreck_01/BoatWreck_01.et" {
+ coords 2999.57 -0.344 2989.461
+ angles 0 83.586 0
+ scale 1.34
+}
+$grp GenericEntity : "{65E047A8D0FF0CB3}Prefabs/Props/Naval/Buoy_01_grounded.et" {
+ {
+  coords 2873.164 0 2814.082
+ }
+ {
+  coords 2944.526 0 3467.802
+ }
+ {
+  coords 2538.742 0 3568.166
+ }
+ {
+  coords 2633.952 0 2026.714
+ }
+}
+$grp GenericEntity : "{71DA16EBE91406D1}Prefabs/Props/boat/fishingboat.et" {
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    ResponseIndex "Normal"
+   }
+  }
+  coords 3258.875 -1.019 3013.488
+  angles 0 76.597 0
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    ResponseIndex "Normal"
+   }
+  }
+  coords 3305.797 -1.019 3168.514
+  angles 0 56.062 0
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    ResponseIndex "Normal"
+   }
+  }
+  coords 3545.533 -1.019 2475.878
+  angles 0 -86.741 0
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    ResponseIndex "Normal"
+   }
+  }
+  coords 3210.313 -1.019 2409.492
+  angles 0 -101.447 0
+ }
+}
+$grp GenericEntity : "{9A936B155961B5F1}Prefabs/Props/boat/portegaz.et" {
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    ResponseIndex "Normal"
+   }
+  }
+  coords 3035.378 -7.205 3301.014
+  angles 0 67.329 0
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    ResponseIndex "Normal"
+   }
+  }
+  coords 2768.566 -7.205 3416.578
+  angles 0 72.828 0
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    ResponseIndex "Normal"
+   }
+  }
+  coords 3151.937 -7.205 3553.373
+  angles 0 50.837 0
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    ResponseIndex "Normal"
+   }
+  }
+  coords 2088.858 -7.205 3313.903
+  angles 0 59.861 0
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    ResponseIndex "Normal"
+   }
+  }
+  coords 4159.938 -7.205 2895.381
+  angles 0 -92.534 0
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    ResponseIndex "Normal"
+   }
+  }
+  coords 1684.448 0 2186.986
+  angles 0 -128.389 0
+ }
+}
+$grp GenericEntity : "{B378733E12CFAE69}Prefabs/Props/Naval/Buoy_01_base.et" {
+ {
+  coords 2820.814 0 2983.885
+ }
+ {
+  coords 2603.692 0 2557.503
+ }
+ {
+  coords 1272.844 0 1925.494
+ }
+ {
+  coords 4890.209 0 3201.697
+ }
+}
+$grp GenericEntity : "{D2A2B73E63F4AD65}Prefabs/Props/Naval/Buoy_01_grounded_rusty.et" {
+ {
+  coords 2182.542 0 3480.048
+ }
+ {
+  coords 2026.567 0 2791.112
+ }
+}
+GenericEntity : "{F513D99A28A5E5E3}Prefabs/Props/Recreation/Beach/PedalBoat_01/PedalBoat_01_blue.et" {
+ coords 3000.048 -0.201 2986.449
+ angles 0 82.794 0
+ scale 1.44
+}
+$grp SCR_DestructibleBuildingEntity : "{FF39390F2D826521}Prefabs/Structures/Infrastructure/Naval/Piers/PierWooden_01_25m.et" {
+ {
+  coords 1006.292 -0.497 1590.741
+  angles 0 -89.798 0
+ }
+ {
+  coords 1006.287 -0.497 1589.254
+  angles 0 -89.798 0
+ }
+ {
+  coords 1006.282 -0.497 1587.727
+  angles 0 -89.798 0
+ }
+ {
+  coords 1072.656 0 1560.437
+  angles 0 -89.798 0
+ }
+ {
+  coords 1072.661 0 1561.964
+  angles 0 -89.798 0
+ }
+ {
+  coords 1072.666 0 1563.451
+  angles 0 -89.798 0
+ }
+}

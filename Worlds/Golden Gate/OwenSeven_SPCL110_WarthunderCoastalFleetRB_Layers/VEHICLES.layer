@@ -1,0 +1,18 @@
+$grp CRF_VehicleSpawner : "{EBAE2FB05F6A0E06}PrefabsMissionMaking/Systems/VehicleSpawner/BLUFOR_VehicleSpawner.et" {
+ BluforBoat {
+  coords 1067.576 0.294 1571.467
+  angles 0 91.805 0
+  m_rVehicle "{72FDC36C45130EAA}Vehicles/RiverRunner/RiverRunner_armed_WZNP.et"
+  m_iRespawnTimer 99999
+  m_OverridedVehicleLoadout CRF_VehicleGearScriptLoadout "{696820B628452730}" {
+  }
+ }
+ OpforBoat {
+  coords 5257.584 0.237 3670.878
+  angles 0 150.606 0
+  m_rVehicle "{8421C5494F863EA6}Vehicles/RiverRunner/RiverRunner_armed_USSR.et"
+  m_iRespawnTimer 99999
+  m_OverridedVehicleLoadout CRF_VehicleGearScriptLoadout "{696820B5C11CB0B0}" {
+  }
+ }
+}
